@@ -60,13 +60,13 @@ Feel free to explore my projects or reach out if you’re working on something l
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=maxmustermann&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=maxmustermann&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=codeleaded&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codeleaded&layout=compact)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=maxmustermann&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=codeleaded&theme=radical)
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=maxmustermann)
+![Trophy](https://github-profile-trophy.vercel.app/?username=codeleaded)
 
 ---
 
-![](https://komarev.com/ghpvc/?username=maxmustermann&color=blue)
+![](https://komarev.com/ghpvc/?username=codeleaded&color=blue)
