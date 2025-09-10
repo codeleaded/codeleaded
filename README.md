@@ -60,9 +60,9 @@ Feel free to explore my projects or reach out if you’re working on something l
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=codeleaded&show_icons=true&theme=radical&cache_seconds=1800)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=codeleaded&layout=compact&cache_seconds=1800)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=codeleaded&theme=radical)
 ![Trophy](https://github-profile-trophy.vercel.app/?username=codeleaded)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=codeleaded&show_icons=true&theme=radical&cache_seconds=1800)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=codeleaded&theme=radical)
 ![](https://komarev.com/ghpvc/?username=codeleaded&color=blue)
