@@ -1,6 +1,6 @@
-I'm **codeleaded**!,
+I'm **codeleaded**,
 a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
-
+TEST!!!
 I primarily work with **C** and **C++**, but I also explore other low-level languages like **Rust**, **Assembly**, and even custom DSLs for compilers and interpreters.
 
 ---
