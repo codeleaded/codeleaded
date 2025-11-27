@@ -1,63 +1,133 @@
-I'm **codeleaded**,
+### About Me:
+
+Hi. I'm **codeleaded**,
 a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
 
-I primarily work with **C** and **C++**, but I also explore other low-level languages like **Rust**, **Assembly**, and even custom DSLs for compilers and interpreters.
+Besides **C**, I really like a lot of other programming languages from different types like low-level-languages e.g. **C++**, **Rust**, **Assembly (x64,arm64)**, **Go**, **Zig** or modern languages like **Python**, **Java**, **Kotlin**, **Bash**, **Lua** and **C#**. Projects in these languages are mostly not provided in the profile because its propose is implementations in C-Code.
 
 ---
 
-### 🛠️ What I like working on:
+### Why C ?
 
-- **Operating systems** (kernels, bootloaders, userspace tools)
-- **Low-level graphics** (OpenGL, shaders, rendering pipelines)
-- **Custom compilers** and interpreters (parsers, bytecode, codegen, optimization)
-- **Systems tools** like package managers, terminals, file utilities
-- **Memory management**
-- Building things that most users never see – but that power everything they use
+I primarily work with **C** because I just love C for being really powerful, fast and gives the programmer a lot of control over hardware, especially memory and code-execution. In C everything is explicit, clear and readable. The problem with C is being old and having minimal std-libraries.
 
----
-
-### 📚 Interests & Learning:
-
-- **Unix/Linux internals** – signals, syscalls
-- **Linkers and loaders** – ELF binaries, static/dynamic linking
-- **Cross-compilation** and embedded systems
-- Reverse engineering, debugging, and binary tools (`objdump`, `gdb`, `lldb`)
-- Systems security
+Solving this problem is my main-goal implementing projects which are build up by hand using only some libc
+functions from headers like **stdio.h**, **stdlib.h**, **string.h**, etc.
+A lot of functions provided by these headers have a equivalent implementation in my library-collection f.e intrinsic functions like **memcpy** and **memset** or format- and parsing-functions like **sprintf**, **itoa**.
 
 ---
 
-### 💡 Philosophy
+### How is the library-collection structured ?
 
-> "Know your tools. Understand your machine. Then build things that matter."
+Building libraries and abstracting behavior and later reusing them is the core of programming. This is the reason why the library-collection is seperate and every projects uses absolute paths which are poiting to the header. The library-collection consists only of C-Header files (headerbased only). The reason is that this keeps the code compact and well structured (seperating the C-Code in .h and .c files if needed would be really easy).
 
-I believe in writing software that is:
-- **Understandable** – even at the assembly level
-- **Portable** – across machines, distros, or hardware
-- **Minimal** – fewer dependencies, more control
-- **Performant** – because waste scales
+The prefix **Cmd_** indicates a commandline like implementation of the tool, no gui like a window etc.
+Implementations with **Gui_** on the other hand always contains a window or other gui-components.
 
----
-
-### 🧰 Tools & Languages
-
-- **Languages**: C, C++, Rust, Assembly (x86_64, NASM), Shell
-- **Tools**: `make`, `clang`, `gcc`, `gdb`
-- **Platforms**: Linux (Ubuntu), QEMU, WSL
-- **Misc**: Git, VSCode, custom build systems, Docker, TTY-level tools
+Not every library is defined for every combination of architekture and operating-system. The most projects are build for x64, Ubuntu (GNU-Linux) and some for Windows (10/11).
+MacOS and Emscripten is not supported (yet).
 
 ---
 
-### 🔧 Some things I like building:
-- Experimental kernels and bootable ISOs
-- Self-hosting compilers
-- Raymarching demos with OpenGL shaders
-- Static CLI tools with no external dependencies
-- Tiny libc replacements or POSIX wrappers
+### Datastructures:
+
+- vector
+- database
+- (bin)tree
+- array
+- dictionary
+- deque
+- graph
+- hashmap
+- heap
+- list
+- queue
+- set
+- stack
 
 ---
 
-Feel free to explore my projects or reach out if you’re working on something low-level, weird, or compiler-y.
+### Libraries:
 
+- a allocator with block optimisations
+- cli argument tool
+- audio lib for I/O
+- camera lib for I/O
+- controler input (PS4)
+- encryption a/sym
+- gui components
+- custom markup-language interacting with gui components (.alxml)
+- custom compiled-language (SuperALX .salx)
+- custom sql-like-language (.alxql)
+- custom interpreted-language (LuaLike .ll) used for a pong implementation, graph plotter like desmos
+- custom interpreted-language changed for excel like application
+- custom interpreted-language changed for robot-karol like application
+- object-notation language
+- parser for languages
+- indemediate representation and VM for IR
+- keyboard/mouse interaction
+- neuralnetwork for RL and SL (imageCF, pong-bot)
+- dumper for objects
+- regex engine
+- terminal engine for rendering and input
+- compression zip
+- image-processing
+- affine-transform
+- AR/opticalflow
+- pathfinder astar,wavepropagation
+- balls/edges physics-engine
+- boids behavior engine
+- chess engine
+- debug menu tools
+- fluid-simulation
+- FSB-dithering
+- popup menu
+- dataset plotter
+- voxel-engine
+- office-(math)-markup-language
+- quadtree
+- raycasting engine
+- robotic arm (6 DOF Servos AVR and simulation)
+- static achses thereom SAT
+- shell emulator
+- perlin- and sinenoise
+- splines and curves (f.e. bezier)
+- virtual operating system
+- fixed point lib
+- networking for games and webservers
+- sprite-, shape- and fontrendering
+- window-engine for X11 and WinAPI
+
+---
+
+### Implementations: (most of the named libs have a direct impl)
+- mario bros like
+- gravity simulation
+- minecraft like 3D
+- geogebra/desmos
+- pong
+- maze
+- editor with syntax highlighting
+- pythagorastree
+- wolfenstein-raycaster
+- dino-game
+- spining cube
+- AR for moving a rect
+- 7-segment-clock
+- astroids game
+- cellular automa (game of life)
+- spining donut
+- FT for square-wave
+- mandelbrotset with intrinsics
+- matrix with droping characters
+- mode7
+- soundboard
+
+---
+
+Feel free to explore my projects or reach out if you need code which is not provided. Not every mentioned tool is avalible and not every operating system is supported.
+
+---
 ## 📊 GitHub Stats
 
 ![GitHub Followers](https://img.shields.io/github/followers/codeleaded?label=Followers&style=for-the-badge&color=blueviolet)
