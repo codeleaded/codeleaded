@@ -31,19 +31,19 @@ MacOS and Emscripten is not supported (yet).
 
 ### Datastructures:
 
-- vector
-- database
-- (bin)tree
 - array
-- dictionary
+- vector
+- (bin)tree
 - deque
-- graph
-- hashmap
-- heap
+- set
 - list
 - queue
-- set
 - stack
+- heap
+- graph
+- hashmap
+- dictionary
+- database
 
 ---
 
@@ -102,25 +102,25 @@ MacOS and Emscripten is not supported (yet).
 
 ### Implementations: (most of the named libs have a direct impl)
 - mario bros like
-- gravity simulation
 - minecraft like 3D
-- geogebra/desmos
 - pong
+- wolfenstein-raycaster
+- dino-game
+- astroids game
+- cellular automa (game of life)
+- mode7
+- mandelbrotset with intrinsics
+- gravity simulation
+- geogebra/desmos
 - maze
 - editor with syntax highlighting
 - pythagorastree
-- wolfenstein-raycaster
-- dino-game
 - spining cube
+- spining donut
 - AR for moving a rect
 - 7-segment-clock
-- astroids game
-- cellular automa (game of life)
-- spining donut
 - FT for square-wave
-- mandelbrotset with intrinsics
 - matrix with droping characters
-- mode7
 - soundboard
 
 ---
