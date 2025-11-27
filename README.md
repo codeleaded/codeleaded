@@ -1,10 +1,5 @@
 ### About Me:
 
-Hi. I'm **codeleaded**,
-a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
-
-Besides **C**, I really like a lot of other programming languages from different types like low-level-languages e.g. **C++**, **Rust**, **Assembly (x64,arm64)**, **Go**, **Zig** or modern languages like **Python**, **Java**, **Kotlin**, **Bash**, **Lua** and **C#**. Projects in these languages are mostly not provided in the profile because its propose is implementations in C-Code.
-
 Hi, I'm codeleaded,
 a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
 
