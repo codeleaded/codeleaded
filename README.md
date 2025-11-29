@@ -68,106 +68,13 @@ sprite-, shape-, and font rendering                 window engine for X11 and Wi
 
 ### Implementations:
 ```
-Mario Bros-like     Minecraft 3D        Pong                Wolfenstein raycaster
-Dino game           Asteroids           Cellular Automata   Game of Life
-Mode 7              Mandelbrot          Gravity Sim         Geogebra/Desmos
-Maze                Editor              Pythagoras Tree     Spinning cube
-Spinning donut      AR rect             7-segment clock     FT square wave
-Matrix chars        Soundboard
+Mario Bros–like                     Minecraft-like 3D           Pong                                Wolfenstein raycaster
+Dino game                           Asteroids game              cellular automata (Game of Life)    Mode 7
+Mandelbrot set with intrinsics      gravity simulation          Geogebra/Desmos                     maze
+editor with syntax highlighting     Pythagoras tree             spinning cube                       spinning donut
+AR for moving objects               7-segment clock             FT for square wave                  matrix with falling characters
+soundboard
 ```
-
-
-### Datastructures:
-- array
-- vector
-- (bin)tree
-- deque
-- set
-- list
-- queue
-- stack
-- heap
-- graph
-- hashmap
-- dictionary
-- database
-
----
-
-### Libraries:
-- allocator with block optimisations
-- CLI argument tool
-- audio lib for I/O
-- camera lib for I/O
-- controller input (PS4)
-- symmetric/asymmetric encryption
-- GUI components
-- custom markup language interacting with GUI components (.alxml)
-- custom compiled language (SuperALX .salx)
-- custom SQL-like language (.alxql)
-- custom interpreted language (LuaLike .ll) used for a Pong implementation, graph plotter like Desmos
-- custom interpreted language modified for an Excel-like application
-- custom interpreted language modified for a Robot-Karol–like application
-- object-notation language
-- parser for languages
-- intermediate representation and VM for IR
-- keyboard/mouse interaction
-- neural network for RL and SL (imageCF, pong-bot)
-- dumper for objects
-- regex engine
-- terminal engine for rendering and input
-- compression (zip)
-- image processing
-- affine transforms
-- AR/optical flow
-- pathfinder (A*, wave propagation)
-- balls/edges physics engine
-- boids behaviour engine
-- chess engine
-- debug menu tools
-- fluid simulation
-- FSB dithering
-- popup menu
-- dataset plotter
-- voxel engine
-- office-(math)-markup language
-- quadtree
-- raycasting engine
-- robotic arm (6 DOF Servos AVR and simulation)
-- static axes theorem (SAT)
-- shell emulator
-- Perlin and sine noise
-- splines and curves (e.g. Bézier)
-- virtual operating system
-- fixed-point library
-- networking for games and web servers
-- sprite-, shape-, and font rendering
-- window engine for X11 and WinAPI
-
----
-
-### Implementations: (most of the named libs have a direct impl)
-- Mario Bros–like
-- Minecraft-like 3D
-- Pong
-- Wolfenstein raycaster
-- Dino game
-- Asteroids game
-- cellular automata (Game of Life)
-- Mode 7
-- Mandelbrot set with intrinsics
-- gravity simulation
-- Geogebra/Desmos
-- maze
-- editor with syntax highlighting
-- Pythagoras tree
-- spinning cube
-- spinning donut
-- AR for moving a rectangle
-- 7-segment clock
-- FT for square wave
-- matrix with falling characters
-- soundboard
 
 ---
 
