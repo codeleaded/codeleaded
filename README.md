@@ -3,7 +3,24 @@
 Hi, I'm codeleaded,
 a systems-level developer who enjoys building software that is fast, lightweight, and close to the metal.
 
-Besides **C**, I really like many other programming languages from different categories — such as low-level languages like **C++**, **Rust**, **Assembly (x64, arm64)**, **Go**, **Zig**, and modern languages like **Python**, **Java**, **Kotlin**, **Bash**, **Lua**, and **C#**.
+I really like many programming languages from different categories:
+
+### Low-Level Languages:
+![C](https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000?style=for-the-badge&logo=rust&logoColor=white)
+![Assembly](https://img.shields.io/badge/-Assembly-F05032?style=for-the-badge&logo=assembly&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=black)
+
+### Modern Languages:
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+
 Projects in these languages are mostly not provided in this profile because its purpose is to showcase implementations in **C**.
 
 ---
