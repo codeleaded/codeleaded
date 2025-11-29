@@ -35,75 +35,114 @@ Most projects are built for **x64**, **Ubuntu (GNU/Linux)**, and some for **Wind
 ---
 
 ### Datastructures:
-
-<span style="display:inline-block; width:500px;">**array**</span>
-<span style="display:inline-block; width:500px;">**stack**</span>
-<span style="display:inline-block; width:500px;">**vector**</span>
-<span style="display:inline-block; width:500px;">**heap**</span>
-<span style="display:inline-block; width:500px;">**(bin)tree**</span>
-<span style="display:inline-block; width:500px;">**graph**</span>
-<span style="display:inline-block; width:500px;">**hashmap**</span>
-<span style="display:inline-block; width:500px;">**deque**</span>
-<span style="display:inline-block; width:500px;">**set**</span>
-<span style="display:inline-block; width:500px;">**dictionary**</span>
-<span style="display:inline-block; width:500px;">**list**</span>
-<span style="display:inline-block; width:500px;">**database**</span>
-<span style="display:inline-block; width:500px;">**queue**</span>
+```
+array               vector              (bin)tree           deque               set
+list                queue               stack               heap                graph
+hashmap             dictionary          database
+```
 
 ---
 
 ### Libraries:
+```
+allocator with block optimisations                  CLI argument tool                                       audio lib for I/O
+camera lib for I/O                                  controller input (PS4)                                  symmetric/asymmetric encryption
+GUI components                                      custom markup language for GUI components (.alxml)      custom compiled language (SuperALX .salx)
+custom SQL-like language (.alxql)                   custom interpreted language (LuaLike .ll)               LuaLike used for a Pong implementation
+graph plotter like Desmos                           LuaLike modified for an Excel-like application          LuaLike modified for a Robot-Karol–like application
+object-notation language                            parser for languages                                    intermediate representation and VM for IR
+keyboard/mouse interaction                          neural network for RL and SL (imageCF, pong-bot)        dumper for objects
+regex engine                                        terminal engine for rendering and input                 compression (zip)
+image processing                                    affine transforms                                       AR/optical flow
+pathfinder (A*, wave propagation)                   balls/edges physics engine                              boids behaviour engine
+chess engine                                        debug menu tools                                        fluid simulation
+FSB dithering                                       popup menu                                              dataset plotter
+voxel engine                                        office-(math)-markup language                           quadtree
+raycasting engine                                   robotic arm (6 DOF Servos AVR and simulation)           static axes theorem (SAT)
+shell emulator                                      Perlin and sine noise                                   splines and curves (e.g. Bézier)
+virtual operating system                            fixed-point library                                     networking for games and web servers
+sprite-, shape-, and font rendering                 window engine for X11 and WinAPI
+```
 
-<span style="display:inline-block; width:500px;">• allocator with block optimisations</span>
-<span style="display:inline-block; width:500px;">• CLI argument tool</span>
-<span style="display:inline-block; width:500px;">• audio lib for I/O</span>
-<span style="display:inline-block; width:500px;">• camera lib for I/O</span>
-<span style="display:inline-block; width:500px;">• controller input (PS4)</span>
-<span style="display:inline-block; width:500px;">• symmetric/asymmetric encryption</span>
-<span style="display:inline-block; width:500px;">• GUI components</span>
-<span style="display:inline-block; width:500px;">• custom markup language interacting with GUI components (.alxml)</span>
-<span style="display:inline-block; width:500px;">• custom compiled language (SuperALX .salx)</span>
-<span style="display:inline-block; width:500px;">• custom SQL-like language (.alxql)</span>
-<span style="display:inline-block; width:500px;">• custom interpreted language (LuaLike .ll)</span>
-<span style="display:inline-block; width:500px;">• LuaLike for for a Pong implementation, graph plotter like Desmos</span>
-<span style="display:inline-block; width:500px;">• LuaLike for graph plotter like Desmos</span>
-<span style="display:inline-block; width:500px;">• LuaLike modified for an Excel-like application</span>
-<span style="display:inline-block; width:500px;">• LuaLike modified for a Robot-Karol–like application</span>
-<span style="display:inline-block; width:500px;">• object-notation language</span>
-<span style="display:inline-block; width:500px;">• parser for languages</span>
-<span style="display:inline-block; width:500px;">• intermediate representation and VM for IR</span>
-<span style="display:inline-block; width:500px;">• keyboard/mouse interaction</span>
-<span style="display:inline-block; width:500px;">• neural network for RL and SL (imageCF, pong-bot)</span>
-<span style="display:inline-block; width:500px;">• dumper for objects</span>
-<span style="display:inline-block; width:500px;">• regex engine</span>
-<span style="display:inline-block; width:500px;">• terminal engine for rendering and input</span>
-<span style="display:inline-block; width:500px;">• compression (zip)</span>
-<span style="display:inline-block; width:500px;">• image processing</span>
-<span style="display:inline-block; width:500px;">• affine transforms</span>
-<span style="display:inline-block; width:500px;">• AR/optical flow</span>
-<span style="display:inline-block; width:500px;">• pathfinder (A*, wave propagation)</span>
-<span style="display:inline-block; width:500px;">• balls/edges physics engine</span>
-<span style="display:inline-block; width:500px;">• boids behaviour engine</span>
-<span style="display:inline-block; width:500px;">• chess engine</span>
-<span style="display:inline-block; width:500px;">• debug menu tools</span>
-<span style="display:inline-block; width:500px;">• fluid simulation</span>
-<span style="display:inline-block; width:500px;">• FSB dithering</span>
-<span style="display:inline-block; width:500px;">• popup menu</span>
-<span style="display:inline-block; width:500px;">• dataset plotter</span>
-<span style="display:inline-block; width:500px;">• voxel engine</span>
-<span style="display:inline-block; width:500px;">• office-(math)-markup language</span>
-<span style="display:inline-block; width:500px;">• quadtree</span>
-<span style="display:inline-block; width:500px;">• raycasting engine</span>
-<span style="display:inline-block; width:500px;">• robotic arm (6 DOF Servos AVR and simulation)</span>
-<span style="display:inline-block; width:500px;">• static axes theorem (SAT)</span>
-<span style="display:inline-block; width:500px;">• shell emulator</span>
-<span style="display:inline-block; width:500px;">• Perlin and sine noise</span>
-<span style="display:inline-block; width:500px;">• splines and curves (e.g. Bézier)</span>
-<span style="display:inline-block; width:500px;">• virtual operating system</span>
-<span style="display:inline-block; width:500px;">• fixed-point library</span>
-<span style="display:inline-block; width:500px;">• networking for games and web servers</span>
-<span style="display:inline-block; width:500px;">• sprite-, shape-, and font rendering</span>
-<span style="display:inline-block; width:500px;">• window engine for X11 and WinAPI</span>
+---
+
+### Implementations:
+```
+Mario Bros-like     Minecraft 3D        Pong                Wolfenstein raycaster
+Dino game           Asteroids           Cellular Automata   Game of Life
+Mode 7              Mandelbrot          Gravity Sim         Geogebra/Desmos
+Maze                Editor              Pythagoras Tree     Spinning cube
+Spinning donut      AR rect             7-segment clock     FT square wave
+Matrix chars        Soundboard
+```
+
+
+### Datastructures:
+- array
+- vector
+- (bin)tree
+- deque
+- set
+- list
+- queue
+- stack
+- heap
+- graph
+- hashmap
+- dictionary
+- database
+
+---
+
+### Libraries:
+- allocator with block optimisations
+- CLI argument tool
+- audio lib for I/O
+- camera lib for I/O
+- controller input (PS4)
+- symmetric/asymmetric encryption
+- GUI components
+- custom markup language interacting with GUI components (.alxml)
+- custom compiled language (SuperALX .salx)
+- custom SQL-like language (.alxql)
+- custom interpreted language (LuaLike .ll) used for a Pong implementation, graph plotter like Desmos
+- custom interpreted language modified for an Excel-like application
+- custom interpreted language modified for a Robot-Karol–like application
+- object-notation language
+- parser for languages
+- intermediate representation and VM for IR
+- keyboard/mouse interaction
+- neural network for RL and SL (imageCF, pong-bot)
+- dumper for objects
+- regex engine
+- terminal engine for rendering and input
+- compression (zip)
+- image processing
+- affine transforms
+- AR/optical flow
+- pathfinder (A*, wave propagation)
+- balls/edges physics engine
+- boids behaviour engine
+- chess engine
+- debug menu tools
+- fluid simulation
+- FSB dithering
+- popup menu
+- dataset plotter
+- voxel engine
+- office-(math)-markup language
+- quadtree
+- raycasting engine
+- robotic arm (6 DOF Servos AVR and simulation)
+- static axes theorem (SAT)
+- shell emulator
+- Perlin and sine noise
+- splines and curves (e.g. Bézier)
+- virtual operating system
+- fixed-point library
+- networking for games and web servers
+- sprite-, shape-, and font rendering
+- window engine for X11 and WinAPI
 
 ---
 
